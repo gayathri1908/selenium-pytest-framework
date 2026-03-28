@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "username": "tomsmith",
+      "password": "SuperSecretPassword!",
+      "expected": "secure area"
+    },
+    {
+      "username": "wrong",
+      "password": "wrong",
+      "expected": "invalid"
+    }
+  ]
+}
